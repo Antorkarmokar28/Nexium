@@ -1,7 +1,9 @@
-import letsMakeImg from "../../src/assets/images/letsMake.jpg";
+import letsMakeImg from "./../assets/images/letsMake.jpg";
 function LetsMake() {
-  <div className="container mx-auto">
-    <img className="w-80 h-80" src={letsMakeImg} alt="" />
-  </div>;
+  return (
+    <div className="container mx-auto h-auto mt-20">
+      <img className="w-full h-full" src={letsMakeImg} alt="" />
+    </div>
+  );
 }
 export default LetsMake;
