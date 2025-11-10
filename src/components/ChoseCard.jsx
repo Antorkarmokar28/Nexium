@@ -5,8 +5,8 @@ import { PiArrowBendDownRightLight } from "react-icons/pi";
 function ChoseCard() {
   return (
     <>
-      <div className="bg-[#C60A83] py-6">
-        <div className="container mx-auto">
+      <div className="bg-[#C60A83] py-10">
+        <div className="container mx-auto p-4">
           <div className="flex gap-4 text-slate-300">
             <p>Ba...</p>
             <p>Overlay</p>
@@ -21,7 +21,7 @@ function ChoseCard() {
             YOUR CARD WITH PREMIUM LIMITS
           </h2>
           {/* card details */}
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* card-1 */}
             <div className="flex justify-between items-center bg-gradient-to-tl from-[#7928CA] to-[#FF0080] rounded-2xl text-slate-200">
               {/* Left Side */}

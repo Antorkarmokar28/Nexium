@@ -7,7 +7,7 @@ function Footer() {
   return (
     <>
       <footer className="bg-[#08162E] py-12">
-        <div className="container mx-auto flex justify-between">
+        <div className="container mx-auto md:flex justify-between p-4">
           {/* logo inner */}
           <div>
             <div className="flex items-center">
@@ -52,13 +52,13 @@ function Footer() {
           </div>
         </div>
         {/* bottom footer */}
-        <div className="container mx-auto flex justify-between mt-20">
+        <div className="container p-4 mx-auto md:flex justify-between mt-20">
           <p className="text-slate-200">
             &copy; 2025 Bellver Markets LLC. Nexium is a product of Bellver
             Markets LLC. All rights reserved.
           </p>
           <p>
-            <ul className="flex gap-4 text-slate-200">
+            <ul className="md:flex gap-4 text-slate-200">
               <li>
                 <a href="#">Supports</a>
               </li>
