@@ -23,7 +23,7 @@ function ChoseCard() {
           {/* card details */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* card-1 */}
-            <div className="flex justify-between items-center bg-gradient-to from-[#7928CA] to-[#FF0080] rounded-2xl text-slate-200">
+            <div className="flex justify-between items-center rounded-2xl text-slate-200">
               {/* Left Side */}
               <div className="p-6">
                 <div className="flex gap-3 items-center">
